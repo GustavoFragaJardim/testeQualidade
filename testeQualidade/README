@@ -1,0 +1,19 @@
+Para executar corretamente os testes siga os passos abaixo:
+
+se você não tiver o NODE instalado
+    entre no caminho: https://nodejs.org/en/download/ , faça o dowload e instale o nodejs
+
+No menu iniciar, procure por CMD,
+encontre o caminho do dowload,
+entre na pasta testeQualidade,
+digite: npm install
+
+pronto, ambiente normalizado
+
+para rodar os testes da Cadeia de Caracteres digite no CMD: 
+    qunit 'tests/cadeia-test.js'
+para rodar os testes de Fibonacci digite no CMD: 
+    qunit 'tests/fibonacci-test.js'
+para rodar os testes de Tipo de Triângulos digite no CMD: 
+    qunit 'tests/triangulo-test.js'
+
